@@ -1,0 +1,68 @@
+body {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('repeated-square-dark.png');
+}
+
+h1 {
+    color: white;
+    font-family: 'Niconne';
+    font-size: 3.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+.team, .name {
+    margin: 10px;
+}
+
+button {
+    font-family: 'Niconne';
+    font-size: 2em;
+    background-color: rgba(171, 205, 239, 1);
+}
+
+.gameboard {
+    height: 50%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: double white;
+    padding: 0.25em;
+    display: none;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: ridge white;
+    font: bold 2em fantasy;
+    color: white;
+}
+
+#result {
+    color: white;
+    font-family: 'Niconne';
+    font-size: 2.5em;
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font: bold italic 1.4em monospace;
+    color: white;
+}

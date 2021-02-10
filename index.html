@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic-Tac-Toe</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        <button id="new-game" type="button">New-Game</button>
+        <form id="team-form">
+            <label class="team" for="team">Choose Your Team!:</label>
+            <span class="team">
+            <input id="team-x" class="team" type="radio" name= "team" value="X" checked>
+            <label class="team" for="team">X</label>
+            <input id="team-o" class="team" type="radio" name= "team" value="O">
+            <label class="team" for="team">O</label>
+            </span>
+            <button id="team-submit" type="button">Submit</button>
+        </form>
+        <form id="name-form">
+            <label class="name" for="name">Enter Your Name!:</label>
+            <input id="name-text" class="name" type="text">
+            <button id="name-submit" class= "name" type="button">Submit</button>
+        </form>
+        <div class="gameboard">
+            <!--<div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>-->
+        </div>
+        <div id="result"></div>
+        <script src="tic-tac-toe.js"></script>
+    </body>
+    <footer>TJDRZ&trade;</footer>
+</html>
