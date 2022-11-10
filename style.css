@@ -33,7 +33,7 @@ button {
     background-color: rgba(171, 205, 239, 1);
 }
 
-.gameboard {
+#gameboard {
     height: 50%;
     width: 50%;
     display: grid;
@@ -42,6 +42,15 @@ button {
     border: double white;
     padding: 0.25em;
     display: none;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 2em fantasy;
+    color: white;
+    border: ridge white;
 }
 
 #result {
